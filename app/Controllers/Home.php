@@ -6,7 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('front/head_view');
+        $data['titulo']='pagina_principal'
+        echo view('front/head_view',$data);
         echo view('front/navbar_view');
         echo view('front/principal');
         echo view('front/footer_view');
@@ -14,7 +15,8 @@ class Home extends BaseController
 
     public function nosotros()
     {
-        echo view('front/head_view');
+        $data['titulo']='nosotros'
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/nosotros');
         echo view('front/footer_view');
@@ -22,7 +24,8 @@ class Home extends BaseController
 
     public function servicios()
     {
-        echo view('front/head_view');
+        $data['titulo']='servicios'
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/servicios');
         echo view('front/footer_view');
@@ -30,15 +33,17 @@ class Home extends BaseController
 
     public function registrate()
     {
-        echo view('front/head_view');
+        $data['titulo']='registrate'
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/registrate');
+        echo view('back/usuario/registrate');
         echo view('front/footer_view');
     }
 
     public function contacto()
     {
-        echo view('front/head_view');
+        $data['titulo']='contacto'
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/contacto');
         echo view('front/footer_view');
@@ -46,9 +51,10 @@ class Home extends BaseController
 
     public function login()
     {
-        echo view('front/head_view');
+        $data['titulo']='login'
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/login');
+        echo view('back/usuario/login');
         echo view('front/footer_view');
     }
 
