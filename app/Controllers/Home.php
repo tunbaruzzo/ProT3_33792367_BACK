@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        $data['titulo']='pagina_principal'
+        $data['titulo']='pagina_principal';
         echo view('front/head_view',$data);
         echo view('front/navbar_view');
         echo view('front/principal');
@@ -15,7 +15,7 @@ class Home extends BaseController
 
     public function nosotros()
     {
-        $data['titulo']='nosotros'
+        $data['titulo']='nosotros';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/nosotros');
@@ -24,7 +24,7 @@ class Home extends BaseController
 
     public function servicios()
     {
-        $data['titulo']='servicios'
+        $data['titulo']='servicios';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/servicios');
@@ -33,7 +33,7 @@ class Home extends BaseController
 
     public function registrate()
     {
-        $data['titulo']='registrate'
+        $data['titulo']='registrate';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('back/usuario/registrate');
@@ -42,7 +42,7 @@ class Home extends BaseController
 
     public function contacto()
     {
-        $data['titulo']='contacto'
+        $data['titulo']='contacto';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/contacto');
@@ -51,7 +51,7 @@ class Home extends BaseController
 
     public function login()
     {
-        $data['titulo']='login'
+        $data['titulo']='login';
         echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('back/usuario/login');
