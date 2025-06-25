@@ -1,0 +1,48 @@
+CRITICAL - 2025-06-25 15:47:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/empleados/registrate.php"
+[Method: GET, Route: registrate]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/empleados/registrate.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('back/empleados/registrate', [], true)
+ 3 APPPATH\Controllers\Home.php(35): view('back/empleados/registrate')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrate()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-25 15:48:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/empleados/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/empleados/login.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('back/empleados/login', [], true)
+ 3 APPPATH\Controllers\Home.php(51): view('back/empleados/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-25 15:48:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/empleados/registrate.php"
+[Method: GET, Route: registrate]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/empleados/registrate.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('back/empleados/registrate', [], true)
+ 3 APPPATH\Controllers\Home.php(35): view('back/empleados/registrate')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrate()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-25 15:48:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/empleados/registrate.php"
+[Method: GET, Route: registrate]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/empleados/registrate.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('back/empleados/registrate', [], true)
+ 3 APPPATH\Controllers\Home.php(35): view('back/empleados/registrate')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrate()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

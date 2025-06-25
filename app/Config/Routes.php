@@ -10,7 +10,7 @@ $routes->get('principal', 'Home::index');
 $routes->get('nosotros', 'Home::nosotros');
 $routes->get('servicios', 'Home::servicios');
 $routes->get('contacto', 'Home::contacto');
+$routes->get('registrate', 'Home::registrate');
 $routes->get('login', 'Home::login');
 $routes->get('error404', 'Home::error404');
-$routes->get('registrate', 'Usuario_controller::create');
-$routes->post('formValidation', 'Usuario_controller::formValidation');
+
