@@ -32,7 +32,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('back/empleados/registrate');
+        echo view('front/registrate');
         echo view('front/footer_view');
     }
 
@@ -48,7 +48,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('back/empleados/login');
+        echo view('front/login');
         echo view('front/footer_view');
     }
 
